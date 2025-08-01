@@ -2,14 +2,12 @@
 
 Ask anything about your PDFs — this chatbot understands and answers using real-time document context with blazing-fast LLMs.
 
-![Demo Screenshot](./screenshot.png) <!-- optional -->
-
 ---
 
 ## 🚀 Features
 
 - ✅ Upload any PDF and chat with it instantly
-- ⚡ Powered by [Groq](https://groq.com)'s ultra-fast LLMs (`mistral-saba-24b`)
+- ⚡ Powered by [Groq](https://groq.com)'s ultra-fast LLMs (`llama-3.3-70b-versatile`)
 - 🧠 Conversational memory (remembers chat history)
 - 🔍 Answers grounded in real source pages
 - 🔒 Secure API access with environment secrets
@@ -23,7 +21,7 @@ Ask anything about your PDFs — this chatbot understands and answers using real
 
 - `Streamlit` — Interactive frontend
 - `LangChain` — RAG + memory + retrieval
-- `Groq` — Hosted LLMs (`mistral-saba-24b`)
+- `Groq` — Hosted LLMs (`llama-3.3-70b-versatile`)
 - `ChromaDB` — Local vector store
 - `HuggingFace Embeddings` — Document chunk encoding
 - `PyMuPDF` — PDF parsing
