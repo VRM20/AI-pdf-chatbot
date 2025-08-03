@@ -1,7 +1,9 @@
 streamlit
 langchain
 langchain-groq
-pymupdf
 chromadb
-sentence-transformers
+pymupdf
 python-dotenv
+transformers
+torch
+sentence-transformers
