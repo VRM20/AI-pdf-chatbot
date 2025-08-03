@@ -2,8 +2,6 @@ streamlit
 langchain
 langchain-groq
 chromadb
-pymupdf
+openai
+pymupdf  # for PDF parsing (PyMuPDF)
 python-dotenv
-transformers
-torch
-sentence-transformers
