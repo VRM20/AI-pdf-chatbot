@@ -1,7 +1,9 @@
-streamlit
-langchain[openai,chromadb]
+langchain
+langchain-community
+langchain-core
 langchain-groq
-openai
 chromadb
+groq
+sentence-transformers
+streamlit
 pymupdf
-python-dotenv
