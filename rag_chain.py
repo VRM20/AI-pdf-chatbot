@@ -3,6 +3,8 @@ from langchain_groq import ChatGroq
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
+from dotenv import load_dotenv
+load_dotenv()
 
 def get_rag_chain():
 
@@ -11,7 +13,7 @@ def get_rag_chain():
     retriever = vectordb.as_retriever(search_kwargs = {"k":3})
 
     llm = ChatGroq(
-        api_key = "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",
+        api_key = "GROQ_API_KEY",
         temperature = 0,
         model_name = "llama-3.3-70b-versatile"
     )
@@ -32,4 +34,5 @@ def get_rag_chain():
         )
 
     return chain
+
 
