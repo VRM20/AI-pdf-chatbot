@@ -3,8 +3,11 @@ from langchain_groq import ChatGroq
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
+
 from dotenv import load_dotenv
+import os
 load_dotenv()
+api_key = os.getenv("GROQ_API_KEY")
 
 def get_rag_chain():
 
@@ -34,5 +37,6 @@ def get_rag_chain():
         )
 
     return chain
+
 
 
